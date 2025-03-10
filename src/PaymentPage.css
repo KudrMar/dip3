@@ -1,0 +1,52 @@
+.main-Payment-container {
+  flex-direction: column;
+  display: flex;
+  border: 1px solid #C4C4C4;
+  width: 100%;
+  background-color: #FFFFFF;
+  padding: 0px 36px 88px 36px;
+  box-sizing: border-box;
+  border-top: 0px;
+}
+
+.main-Payment-40 {
+  width: 40%;
+  margin-top: 54px;
+}
+
+.main-Payment-checkbox-text {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28.13px;
+  letter-spacing: 0%;
+
+}
+
+.main-SelectPassengersMain-passengerCard-limited {
+  flex-direction: row;
+  display: flex;
+  gap: 35px;
+  margin-top: 50px;
+}
+
+.main-SelectPassengersMain-labelBold {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.13px;
+  letter-spacing: 0%;
+  color: #292929;
+}
+
+.cssColorYelow {
+  color: #FFA800;
+}
+
+.cssColorGrey {
+  color: #928F94;
+}
+
+.cssErrorInput {
+  border-color: red;
+}

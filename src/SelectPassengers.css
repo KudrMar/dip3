@@ -1,0 +1,791 @@
+.sidebar-SelectPassengers {
+  display: flex;
+  width: 20%;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+
+.sidebar-SelectPassengersIn {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+  flex-direction: column;
+  color: white;
+  background-color: #3E3C41;
+  padding: 28px;
+}
+
+.sidebar-SelectPassengers-title {
+  width: 100%;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 35.16px;
+  letter-spacing: 0%;
+  color: #E5E5E5;
+  text-align: center;
+}
+
+.sidebar-SelectPassengers-line {
+  border-bottom: 1px solid #E5E5E5;
+  margin-left: -28px;
+  margin-right: -28px;
+  padding-top: 30px;
+
+}
+
+.sidebar-SelectPassengers-to {
+  padding-top: 22px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar-SelectPassengers-to-arrow {
+  width: 32px;
+  height: 26px;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url(./img/sbpArrowRight.svg);
+}
+
+.sidebar-SelectPassengers-to-colapse {
+  width: 32px;
+  height: 26px;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url(./img/sb_minus.svg);
+}
+
+.sidebar-SelectPassengers-to-text,
+.sidebar-SelectPassengers-passengers-text {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35.16px;
+  letter-spacing: 0%;
+
+}
+
+.sidebar-SelectPassengers-to-date {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.09px;
+  letter-spacing: 0%;
+  color: #E5E5E5;
+  text-align: center;
+}
+
+
+
+.sidebar-SelectPassengers-to-train {
+  padding-top: 22px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar-SelectPassengers-to-train-text {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.09px;
+  letter-spacing: 0%;
+  color: #E5E5E5;
+  text-align: center;
+}
+
+.sidebar-SelectPassengers-to-train-number {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.13px;
+  letter-spacing: 0%;
+  text-align: right;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+
+.sidebar-SelectPassengers-to-info {
+  padding-top: 22px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar-SelectPassengers-to-info-text {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.09px;
+  letter-spacing: 0%;
+  color: #E5E5E5;
+  text-align: center;
+}
+
+.sidebar-SelectPassengers-to-info-name {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.13px;
+  letter-spacing: 0%;
+  text-align: right;
+  color: #FFFFFF;
+  justify-content: end;
+  align-items: end;
+}
+
+
+.sidebar-SelectPassengers-to-time {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 45px;
+}
+
+
+.sidebar-SelectPassengers-to-timeto {
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  display: flex;
+}
+
+
+.sidebar-SelectPassengers-to-timefrom-time,
+.sidebar-SelectPassengers-to-timeto-time {
+  color: #E5E5E5;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.13px;
+  letter-spacing: 0%;
+
+}
+
+.sidebar-SelectPassengers-to-timefrom-date,
+.sidebar-SelectPassengers-to-timeto-date {
+  color: #928F94;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.09px;
+  letter-spacing: 0%;
+}
+
+.sidebar-SelectPassengers-to-duration {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar-SelectPassengers-to-duration-time {
+  color: #E5E5E5;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.09px;
+  letter-spacing: 0%;
+}
+
+
+.sidebar-SelectPassengers-to-duration-arrow {
+  width: 30px;
+  height: 20px;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url(./img/sbpArrowRightSmall.svg);
+}
+
+.sidebar-SelectPassengers-to-cities {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 17px;
+}
+
+.sidebar-SelectPassengers-to-citiesto {
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+  display: flex;
+}
+
+.sidebar-SelectPassengers-to-citiesfrom-city,
+.sidebar-SelectPassengers-to-citiesto-city {
+  color: #E5E5E5;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.09px;
+  letter-spacing: 0%;
+
+}
+
+.sidebar-SelectPassengers-to-citiesfrom-station,
+.sidebar-SelectPassengers-to-citiesto-station,
+.sidebar-SelectPassengers-citiesto-text {
+  color: #928F94;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.09px;
+  letter-spacing: 0%;
+
+}
+
+.sidebar-SelectPassengers-passengers-pic {
+  width: 32px;
+  height: 26px;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url(./img/sbpPasseger.svg);
+}
+
+.sidebar-SelectPassengers-passengers {
+  padding-top: 22px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.sidebar-SelectPassengers-sb {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 37px;
+}
+
+
+.sidebar-SelectPassengers-sb-rub {
+  width: 14px;
+  height: 17px;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url(./img/Rub.svg);
+  align-items: center;
+}
+
+
+.sidebar-SelectPassengers-sb-left {
+  flex-direction: row;
+  display: flex;
+  gap: 10px;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.09px;
+  letter-spacing: 0%;
+  color: #E5E5E5;
+  align-items: center;
+}
+
+.sidebar-SelectPassengers-sb-right {
+  flex-direction: row;
+  display: flex;
+  gap: 10px;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.13px;
+  letter-spacing: 0%;
+  text-align: right;
+  color: #FFFFFF;
+  align-items: center;
+}
+
+
+.sidebar-SelectPassengers-totalPrice {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 37px;
+  align-items: center;
+}
+
+.sidebar-SelectPassengers-totalPrice-left {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35.16px;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+}
+
+
+.sidebar-SelectPassengers-totalPrice-right {
+  flex-direction: row;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.sidebar-SelectPassengers-totalPrice-price {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56.25px;
+  letter-spacing: 0%;
+  color: #FFA800;
+}
+
+.sidebar-SelectPassengers-totalPrice-rub {
+  width: 26px;
+  height: 32px;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url(./img/Rub.svg);
+  align-items: center;
+}
+
+/* пассажир -------------------------------------------------------- */
+
+.main-SelectPassengersMain {
+  flex-direction: column;
+  display: flex;
+  margin-left: 84px;
+  width: 100%;
+}
+
+.main-SelectPassengersMain-passengerCard {
+  flex-direction: column;
+  display: flex;
+  border: 1px solid #C4C4C4;
+  width: 100%;
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+}
+
+.main-SelectPassengersMain-passengerCard:nth-child(n + 2) {
+  margin-top: 44px;
+}
+
+.main-SelectPassengersMain-passengerCard-top {
+  flex-direction: row;
+  display: flex;
+  height: 107px;
+  width: 100%;
+  background-color: #F9F9F9;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 36px 0px 36px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #C4C4C4;
+}
+
+.main-SelectPassengersMain-passengerCard-top-colapsefalse {
+  width: 32px;
+  height: 32px;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url(./img/psgMinus.svg);
+  display: flex;
+}
+
+.main-SelectPassengersMain-passengerCard-top-colapsetrue {
+  width: 32px;
+  height: 32px;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url(./img/psgPlus.svg);
+  display: flex;
+}
+
+.main-SelectPassengersMain-passengerCard-top-del {
+  width: 12px;
+  height: 12px;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url(./img/psgCross.svg);
+  align-items: center;
+}
+
+.main-SelectPassengersMain-passengerCard-top-left {
+  flex-direction: row;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.main-SelectPassengersMain-passengerCard-top-text {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35.16px;
+  letter-spacing: 0%;
+  color: #292929;
+}
+
+.main-SelectPassengersMain-passengerCard {
+  flex-direction: column;
+  display: flex;
+  border: 1px solid #C4C4C4;
+  width: 100%;
+  background-color: #FFFFFF;
+}
+
+.main-SelectPassengersMain-passengerCard-container {
+  display: flex;
+  width: 100%;
+  padding: 0px 36px 36px 36px;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+
+.main-SelectPassengersMain-passengerCard-type {
+  height: 50px;
+  border: 1px solid #928F94;
+  border-radius: 5px;
+  display: flex;
+  width: 30%;
+  margin-top: 38px;
+}
+
+.main-SelectPassengersMain-passengerCard-name {
+  flex-direction: row;
+  display: flex;
+  width: 100%;
+  padding-top: 38px;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.main-SelectPassengersMain-passengerCard-input {
+  height: 50px;
+  border: 1px solid #928F94;
+  border-radius: 5px;
+  display: flex;
+  width: 100%;
+  margin-top: 8px;
+  font-family: Roboto;
+font-weight: 400;
+font-size: 24px;
+line-height: 28.13px;
+letter-spacing: 0%;
+color: #292929; 
+padding-left: 10px;
+padding-right: 10px;
+align-items: center;
+box-sizing: border-box;
+outline: none;
+}
+
+.main-SelectPassengersMain-passengerCard-input:focus {
+  outline: none;
+}
+
+.main-SelectPassengersMain-third {
+  flex-direction: column;
+  display: flex;
+  width: 30%;
+  box-sizing: border-box;
+}
+
+.main-SelectPassengersMain-label {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18.75px;
+  letter-spacing: 0%;
+  color: #928F94;
+}
+
+.main-SelectPassengersMain-passengerCard-sex {
+  flex-direction: row;
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+  gap: 66px;
+}
+
+
+.main-SelectPassengersMain-passengerCard-sex-letters {
+  flex-direction: row;
+  display: flex;
+}
+
+.main-SelectPassengersMain-passengerCard-inputrow {
+  flex-direction: row;
+  display: flex; 
+}
+
+.main-SelectPassengersMain-passengerCard-sex-sex-input-Mtrue {
+  border-radius: 0px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 35.16px;
+  letter-spacing: 0%;
+  background-color: #FFA800;
+}
+
+.main-SelectPassengersMain-passengerCard-sex-sex-input-Mfalse {
+  border-radius: 0px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 35.16px;
+  letter-spacing: 0%;
+
+}
+
+.main-SelectPassengersMain-passengerCard-sex-sex-input-Ftrue {
+  border-radius: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 35.16px;
+  letter-spacing: 0%;
+  background-color: #FFA800;
+}
+
+.main-SelectPassengersMain-passengerCard-sex-sex-input-Ffalse {
+  border-radius: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 100px;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 35.16px;
+  letter-spacing: 0%;
+
+}
+
+.main-SelectPassengersMain-passengerCard-sex-birthday {
+  flex-direction: row;
+  width: 30%;
+}
+
+.main-SelectPassengersMain-passengerCard-limited {
+  flex-direction: row;
+  display: flex;
+  gap: 35px;
+  margin-top: 50px;
+}
+
+.main-SelectPassengersMain-passengerCard-limited-text {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.09px;
+  letter-spacing: 0%;
+  color: #292929;
+}
+
+
+.main-SelectPassengersMain-passengerCard-limited-checkboxtrue {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  background-color: #FFFFFF;
+  border: 1px solid #FFA800;
+  border-radius: 5px;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url(./img/psgCheckBox.svg);
+}
+
+.main-SelectPassengersMain-passengerCard-limited-checkboxfalse {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  background-color: #FFFFFF;
+  border: 1px solid #928F94;
+  border-radius: 5px;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.main-SelectPassengersMain-passengerCard-line {
+  margin-top: 31px;
+  border-top: 1px solid #928F94;
+  margin-left: -36px;
+  margin-right: -36px;
+}
+
+.main-SelectPassengersMain-passengerCard-certificate {
+  flex-direction: row;
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+  gap: 66px;
+}
+
+.main-SelectPassengersMain-passengerCard-certificate-third {
+  flex-direction: column;
+  display: flex;
+  width: 25%;
+}
+
+
+
+.main-SelectPassengersMain-passengerCard-select,
+.main-SelectPassengersMain-passengerCard-select option {
+  width: 100%;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28.13px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  padding-left: 5px;
+  color: #3E3C41;
+  border: 0px;
+  /* border: 1px solid #E5E5E5;
+  border-top: 0px; */
+  background-color: #F4F3F6;
+}
+
+
+.main-SelectPassengersMain-passengerCard-select:focus {
+  outline: none;
+
+}
+
+.main-SelectPassengersMain-passengerCard-select option {
+  background-color: #F7F5F9;
+}
+
+
+
+.main-SelectPassengersMain-passengerCard-incorrectlyred {
+  flex-direction: row;
+  display: flex;
+  width: 100%;
+  height: 119px;
+  background-color: rgba(255, 61, 0, 0.38);
+  align-items: center;
+  padding: 36px;
+  box-sizing: border-box;
+  gap: 10px;
+  justify-content: space-between;
+  border-top: 1px solid #928F94;
+}
+
+
+.main-SelectPassengersMain-passengerCard-incorrectlygreen {
+  flex-direction: row;
+  display: flex;
+  width: 100%;
+  height: 119px;
+  background-color: lightgreen;
+  align-items: center;
+  padding: 36px;
+  box-sizing: border-box;
+  gap: 10px;
+  justify-content: space-between;
+  border-top: 1px solid #928F94;
+}
+
+.main-SelectPassengersMain-passengerCard-incorrectlywhite {
+  flex-direction: row;
+  display: flex;
+  width: 100%;
+  height: 119px;
+  background-color: white;
+  align-items: center;
+  padding: 36px;
+  box-sizing: border-box;
+  gap: 10px;
+  justify-content: space-between;
+  border-top: 1px solid #928F94;
+}
+
+.main-SelectPassengersMain-passengerCard-incorrectly-left {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  gap: 10px;
+  justify-content: left;
+}
+
+.main-SelectPassengersMain-passengerCard-incorrectly-cross {
+  width: 32px;
+  height: 32px;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url(./img/psgCrossPing.svg);
+  align-items: center;
+}
+
+.main-SelectPassengersMain-passengerCard-incorrectly-text{
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.09px;
+  letter-spacing: 0%;
+  color: #292929;
+}
+
+.main-SelectPassengersMain-passengerCard-incorrectly-button {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.13px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 303px;
+  height: 52px; 
+  background-color: transparent;
+  border: 1px solid #292929;
+  border-radius: 5px;
+}
+
+.main-SelectPassengersMain-passengerCard-incorrectlygreen .main-SelectPassengersMain-passengerCard-incorrectly-cross {
+  width: 32px;
+  height: 32px;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url(./img/psgCheckGreen.svg);
+  align-items: center;
+}

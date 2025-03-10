@@ -1,0 +1,172 @@
+.main-checkPage-top {
+  flex-direction: row;
+  display: flex;
+  height: 107px;
+  width: 100%;
+  background-color: #FFFFFF;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 36px 0px 36px;
+  box-sizing: border-box;
+  border: 1px solid #C4C4C4;
+}
+
+.button-change {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.13px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #292929;
+  color: #292929;
+  width: 233px;
+  height: 39px;
+  background-color: #FFFFFF;
+}
+
+.main-checkPage-passenger-pic {
+  width: 68px;
+  height: 68px;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url(./img/chkPassenger.svg);
+  align-items: center;
+}
+
+.cssPaddingTop0 {
+  padding-top: 0px;
+}
+
+.cssMarginTop45 {
+  margin-top: 45px;
+}
+
+.main-checkPage-passenger {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #C4C4C4;
+  background-color: #FFFFFF;
+  padding: 0px 20px 25px 36px;
+}
+
+.main-checkPage-passenger-left {
+  flex-direction: column;
+  display: flex;
+  justify-content: left;
+  width: 70%;
+  align-items: center;
+}
+
+.main-checkPage-passenger-list {
+  flex-direction: row;
+  display: flex;
+  justify-content: left;
+  width: 100%;
+  align-items: center;
+}
+
+.main-checkPage-passenger-icon {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  padding: 30px 30px 30px 0px;
+  gap: 17px;
+}
+
+.main-checkPage-passenger-text {
+  display: flex;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.09px;
+  letter-spacing: 0%;
+  text-align: center;
+
+}
+
+.main-checkPage-passenger-name {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21.09px;
+  letter-spacing: 0%;
+
+}
+
+.main-checkPage-passenger-info {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.09px;
+  letter-spacing: 0%;
+  color: #928F94;
+  padding-top: 10px;
+}
+
+.main-checkPage-passenger-right {
+  flex-direction: column;
+  display: flex;
+  justify-content: end;
+  width: 30%;
+  align-items: end;
+}
+
+.main-checkPage-passenger-price-container {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  width: 233px;
+  height: 39px;
+  padding-bottom: 15px;
+}
+
+.main-checkPage-passenger-price {
+  display: flex;
+  color: #292929;
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35.16px;
+  letter-spacing: 0%;
+}
+
+.main-checkPage-passenger-textRub {
+  display: flex;
+  color: #292929;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 35.16px;
+  letter-spacing: 0%;
+
+}
+
+.main-checkPage-PaymentType-left {
+  flex-direction: column;
+  display: flex;
+  justify-content: left;
+  width: 70%;
+  align-items: left;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28.13px;
+  letter-spacing: 0%;
+
+}
+
+.cssPaddingTop45 {
+  padding-top: 45px;
+}
+
+.main-checkPage-PaymentType-text {
+  display: flex;
+}

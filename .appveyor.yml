@@ -1,0 +1,31 @@
+image: Ubuntu2204  # образ для сборки
+
+stack: node 20  # окружение
+
+branches:
+  only:
+    - main  # ветка git
+
+cache: node_modules  # кеширование
+
+init:
+  - export HOME=/home/appveyor
+  #- mkdir -p "$HOME/.git-credentials"
+
+install:
+  - npm install  # команда установки зависимостей
+  - npm install gh-pages --save-dev  # установка gh-pages
+
+build: off  # отключаем встроенную в appveyor систему сборки
+
+build_script:
+  - npm run build
+  - mv build dist # Переименуйте папку build в dist
+  - ls -la dist # Проверка содержимого папки dist
+  
+deploy_script:  # скрипт развёртывания
+  - git config --global credential.helper store
+  - git config --global user.name AppVeyor
+  - git config --global user.email ci@appveyor.com
+  - echo "https://$GITHUB_TOKEN:x-oauth-basic@github.com" > "$HOME/.git-credentials"
+  - npm run deploy  # использование gh-pages для деплоя

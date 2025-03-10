@@ -1,0 +1,211 @@
+.header-section-lastPage-header {
+  border: none;
+  height: 696px;
+}
+
+.header-section-lastPage-header {
+  background-image: url(./img/LastPageImage.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 985px;
+  display: flex;
+  flex-direction: row;
+}
+
+.main-successPageMain {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  height: calc(100% - 500px); 
+}
+
+.main-successPageMain-in {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin: 0 auto;
+  /* position: relative;
+  top: -500px;  */
+  margin-top: -500px;
+}
+
+.main-successPageMain-title {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 84.38px;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  padding-bottom: 50px;
+}
+
+
+.main-successPageMain-conteiner {
+  background-color: #FFFFFF;
+  border: 1px solid #C4C4C4;
+  box-sizing: border-box;
+
+}
+
+
+.main-successPageMain-order {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 62px 82px 0px 82px;
+}
+
+.main-successPageMain-order-left {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42.19px;
+  letter-spacing: 0%;
+  color: #3E3C41;
+}
+
+.main-successPageMain-picInf {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 145px;
+  background-color: #F4F3F6;
+  padding: 40px 0px;
+}
+
+.main-successPageMain-picInf-third-pic {
+  width: 155px;
+  height: 155px;
+  display: flex;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+}
+
+.main-successPageMain-picInf-third-pic1 {
+  background-image: url(./img/scsMail.svg);
+}
+
+.main-successPageMain-picInf-third-pic2 {
+  background-image: url(./img/scsPrint.svg);
+}
+
+.main-successPageMain-picInf-third-pic3 {
+  background-image: url(./img/scsPresent.svg);
+}
+
+.main-successPageMain-picInf-third-text {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21.09px;
+  letter-spacing: 0%;
+  text-align: center;
+  overflow-wrap: break-word;
+  width: 155px;
+}
+
+.main-successPageMain-announcement {
+  padding: 95px 205px;
+}
+
+.main-successPageMain-announcement-name {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42.19px;
+  letter-spacing: 0%;
+  color: #292929;
+  padding-bottom: 51px;
+}
+
+.main-successPageMain-announcement-text {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28.13px;
+  letter-spacing: 0%;
+  color: #292929;
+}
+
+.main-successPageMain-announcement-textbold {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.13px;
+  letter-spacing: 0%;
+  color: #292929;
+  padding: 70px 0px;
+}
+
+.main-successPageMain-rate {
+  background-color: #FFA800E0;
+  padding: 51px 83px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-successPageMain-nextPage-button {
+  height: 60px;
+  width: 222px;
+  border: 1px solid #3E3C41;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #292929;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.13px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.main-successPageMain-rate-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 19px; 
+}
+
+.main-successPageMain-rate-text {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28.13px;
+  letter-spacing: 0%;
+color: #292929;  
+}
+
+.main-successPageMain-star-empty {
+  width: 48px;
+  height: 48px;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url(./img/lpEmptyStar.svg);
+  align-items: center;
+}
+
+
+.main-successPageMain-star-full {
+  width: 48px;
+  height: 48px;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url(./img/lpFullStar.svg);
+  align-items: center;
+}
+
+.main-successPageMain-rate-stars {
+  display: flex;
+  flex-direction: row;
+  gap: 19px;
+}
+

@@ -1,0 +1,1016 @@
+.main-centerSection {
+  display: flex;
+  width: 100%;
+  background-color: #F7F5F9;
+  padding: 95px 258px 193px 258px;
+  box-sizing: border-box;
+}
+
+.main-centerSection-in {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.main-selectSeats {
+  margin-left: 84px;
+  width: 100%;
+}
+
+.main-selectSeats-title {
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 35.16px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: 48px;
+
+}
+
+.main-selectSeats-contaniner {
+  background-color: #FFFFFF;
+  width: 100%;
+  border: 1px solid #C4C4C4;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-selectSeats-departure {
+  height: 128px;
+  display: flex;
+  justify-items: start;
+  gap: 10px;
+  padding-top: 36px;
+  padding-bottom: 32px;
+  padding-left: 19px;
+  box-sizing: border-box;
+}
+
+.main-selectSeats-departure-back-image {
+  width: 76px;
+  height: 60px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-image: url(./img/seatsArrowRight.svg);
+  border-radius: 5px;
+}
+
+.main-selectSeats-departure-back-but {
+  height: 60px;
+  width: 325px;
+  border-radius: 5px;
+  border: 1px solid #292929;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.13px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.main-selectSeats-departure-trainInfo {
+  display: flex;
+  background-color: #F7F6F6;
+  width: 100%;
+  height: 123px;
+  flex-direction: row;
+}
+
+.main-selectSeats-departure-image-border {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-selectSeats-departure-image {
+  background-image: url(./img/ticketImageSmall.svg);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.main-selectSeats-departure-number {
+  width: 25%;
+  flex-direction: column;
+}
+
+.result-search-tickets-number-text-seats {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.13px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  padding-top: 17px;
+  padding-bottom: 17px;
+}
+
+.result-search-tickets-route-time-seats {
+  justify-items: space-between;
+  width: 50%;
+  background-color: #F7F6F6;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.result-search-tickets-route-time-to-seats {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 20px;
+  height: 123px;
+  width: 80%;
+  box-sizing: border-box;
+}
+
+.main-selectSeats-departure-duration-image {
+  background-image: url(./img/clock.svg);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+}
+
+.main-selectSeats-departure-duration {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Количество мест -------------------------------------------------------- */
+
+.main-selectSeats-ticketsAmount {
+  height: 96px;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35.16px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  display: flex;
+  align-items: center;
+  padding-left: 19px;
+}
+
+.main-selectSeats-ticketType {
+  height: 193px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.main-selectSeats-ticketType-third {
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  padding-top: 20px;
+  gap: 20px;
+}
+
+.main-selectSeats-ticketType-adult {
+  background-color: #F7F6F6;
+  border-bottom: 1px solid #C4C4C4;
+}
+
+.main-selectSeats-ticketType-child {
+  border: 1px solid #FFA800C9;
+}
+
+.main-selectSeats-ticketType-input {
+  height: 50px;
+  width: 240px;
+  border-radius: 5px;
+  border: 1px solid #928F94;
+  display: flex;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  padding-left: 17px;
+
+
+}
+
+
+.main-selectSeats-ticketType-text {
+  width: 240px;
+}
+
+
+/* тип вагона -------------------------------------------------------- */
+
+.main-selectSeats-carriage {
+  width: 100%;
+  height: 216px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-selectSeats-carriage-title {
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 35.16px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #292929;
+  padding: 27px 20px 0px 20px;
+}
+
+.main-selectSeats-carriage-types {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.main-selectSeats-carriage-types-fourth {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.main-selectSeats-carriage-types-image {
+  width: 60px;
+  height: 50px;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+}
+
+.main-selectSeats-carriage-types-image4 {
+  background-image: url(./img/carriageType4.svg);
+
+}
+
+.main-selectSeats-carriage-types-image3 {
+  background-image: url(./img/carriageType3.svg);
+
+}
+
+.main-selectSeats-carriage-types-image2 {
+  background-image: url(./img/carriageType2.svg);
+
+}
+
+.main-selectSeats-carriage-types-image1 {
+  background-image: url(./img/carriageType1.svg);
+
+}
+
+.main-selectSeats-carriage-types-image4Active {
+
+  background-image: url(./img/carriageType4Active.svg);
+}
+
+.main-selectSeats-carriage-types-image3Active {
+
+  background-image: url(./img/carriageType3Active.svg);
+}
+
+.main-selectSeats-carriage-types-image2Active {
+
+  background-image: url(./img/carriageType2Active.svg);
+}
+
+.main-selectSeats-carriage-types-image1Active {
+
+  background-image: url(./img/carriageType1Active.svg);
+}
+
+.main-selectSeats-carriage-types-text {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.13px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #292929;
+}
+
+
+.main-selectSeats-carriage-types-textActive {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.13px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #FFA800;
+}
+
+/* список вагонов -------------------------------------------------------- */
+
+.main-selectSeats-carriage-top {
+  height: 37px;
+  background-color: #FFA80070;
+  padding: 0px 11px 0px 33px;
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.main-selectSeats-carriage-top-info {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.75px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #292929;
+  display: flex;
+}
+
+.main-selectSeats-carriage-top-list {
+  align-items: center;
+  display: flex;
+  gap: 5px;
+}
+
+.main-selectSeats-carriage-top-carriages {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.09px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  display: flex;
+}
+
+.main-selectSeats-carriage-top-carriages-number {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.13px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  display: flex;
+
+}
+
+
+.main-selectSeats-carriage-top-carriages-numberActive {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.13px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  display: flex;
+  color: white;
+}
+
+
+/* информация о вагоне -------------------------------------------------------- */
+
+.main-selectSeats-carriage-item {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.main-selectSeats-carriage-info {
+  flex-direction: row;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.main-selectSeats-carriage-info-number {
+  background-color: #FFD98F;
+  width: 190px;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding-bottom: 40px;
+  box-sizing: border-box;
+}
+
+.main-selectSeats-carriage-info-number-value {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 84.38px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #292929;
+
+}
+
+.main-selectSeats-carriage-info-number-coach {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.13px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #292929;
+}
+
+.main-selectSeats-carriage-info-contant {
+  width: 100%;
+  display: flex;
+  padding-top: 33px;
+}
+
+.main-selectSeats-carriage-info-col1 {
+  width: calc(100% / 3);
+  display: flex;
+  padding-left: 85px;
+  flex-direction: column;
+  gap: 21px;
+}
+
+
+.main-selectSeats-carriage-info-amount-total {
+  flex-direction: row;
+  display: flex;
+  gap: 20px;
+}
+
+.main-selectSeats-carriage-info-amount-total-title {
+  color: #928F94;
+  display: flex;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.09px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+}
+
+.main-selectSeats-carriage-info-amount-total-value {
+  color: #000000;
+  display: flex;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.09px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+}
+
+.main-selectSeats-carriage-info-amount {
+  flex-direction: row;
+  display: flex;
+  gap: 20px;
+}
+
+.main-selectSeats-carriage-info-amount-title {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28.13px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+}
+
+.main-selectSeats-carriage-info-amount-value {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.13px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+}
+
+.main-selectSeats-carriage-info-col2 {
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+
+
+.main-selectSeats-carriage-info-prices-title {
+  color: #928F94;
+  display: flex;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.09px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+}
+
+
+.main-selectSeats-carriage-info-prices {
+  display: flex;
+  flex-direction: row;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.13px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  gap: 20px;
+  align-items: center;
+}
+
+
+.main-selectSeats-carriage-info-prices-image {
+  background-image: url(./img/Rub.svg);
+  border: none;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 14px;
+  height: 17px;
+
+}
+
+
+.main-selectSeats-carriage-info-col3 {
+  width: calc(100% / 3);
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+
+
+.main-selectSeats-carriage-info-service {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.09px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #928F94;
+
+}
+
+.main-selectSeats-carriage-info-service-images {
+  display: flex;
+  flex-direction: row;
+  gap: 13px;
+}
+
+.main-selectSeats-carriage-info-service-image1 {
+  background-image: url(./img/seats/seatsCondition.svg);
+  ;
+  border: none;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 36px;
+  height: 34px;
+}
+
+
+.main-selectSeats-carriage-info-service-image2 {
+  background-image: url(./img/seats/seatsWiFi.svg);
+  ;
+  border: none;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 36px;
+  height: 34px;
+}
+
+
+.main-selectSeats-carriage-info-service-image3 {
+  background-image: url(./img/seats/seatsLinen.svg);
+  ;
+  border: none;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 36px;
+  height: 34px;
+}
+
+
+.main-selectSeats-carriage-info-service-image4 {
+  background-image: url(./img/seats/seatsMeal.svg);
+  border: none;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 36px;
+  height: 34px;
+}
+
+.main-selectSeats-carriage-info-service-image1Active {
+  background-image: url(./img/seats/seatsConditionActive.svg);
+  ;
+  border: none;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 36px;
+  height: 34px;
+}
+
+
+.main-selectSeats-carriage-info-service-image2Active {
+  background-image: url(./img/seats/seatsWiFiActive.svg);
+  ;
+  border: none;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 36px;
+  height: 34px;
+}
+
+
+.main-selectSeats-carriage-info-service-image3Active {
+  background-image: url(./img/seats/seatsLinenActive.svg);
+  ;
+  border: none;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 36px;
+  height: 34px;
+}
+
+.main-selectSeats-carriage-info-service-image4Active {
+  background-image: url(./img/seats/seatsMealActive.svg);
+  ;
+  border: none;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 36px;
+  height: 34px;
+}
+
+
+/* карта вагона -------------------------------------------------------------- */
+
+
+.main-selectSeats-carriage-seatsmap {
+  padding: 67px 21px 0px 21px;
+  height: 310px;
+  display: flex;
+  flex-direction: row;
+}
+
+.main-selectSeats-carriage-seatsmap-imageleft {
+  background-image: url(./img/coachLeft.png);
+  ;
+  border: none;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 190px;
+  height: 290px;
+}
+
+.main-selectSeats-carriage-seatsmap-imageright {
+  background-image: url(./img/coachRight.png);
+  ;
+  border: none;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 112px;
+  height: 290px;
+}
+
+.main-selectSeats-carriage-seatsmap-coupes {
+  display: flex;
+  flex-direction: row;
+  padding-top: 0px;
+  /* border-bottom: 6px solid #999999; */
+  margin-bottom: 35px;
+}
+
+.main-selectSeats-carriage-seatsmap-coupes-lux {
+  display: flex;
+  flex-direction: row;
+  padding-top: 0px;
+  border-bottom: 6px solid #999999;
+  padding-bottom: 65px;
+}
+
+.main-selectSeats-carriage-seatsmap-coupe {
+  display: flex;
+  flex-direction: row;
+  border-top: 6px solid #999999;
+}
+
+
+.main-selectSeats-carriage-seatsmap-coupe-seat {
+  display: flex;
+  width: 35px;
+  height: 48px;
+  background-color: #cccccc;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #f2f2f2;
+  border: none;
+}
+
+.main-selectSeats-carriage-seatsmap-lux-seat {
+  display: flex;
+  width: 35px;
+  height: 95px;
+  background-color: #cccccc;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #f2f2f2;
+  border: none;
+}
+
+.main-selectSeats-carriage-seatsmap-placcart-seat {
+  display: flex;
+  width: 54px;
+  height: 35px;
+  background-color: #cccccc;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #f2f2f2;
+  border: none;
+}
+
+.main-selectSeats-carriage-seatsmap-seats-seat {
+  display: flex;
+  min-width: 32px;
+  height: 22px;
+  background-color: #cccccc;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #f2f2f2;
+  border: none;
+  margin-left: 12px;
+  margin-right: 12px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.main-selectSeats-carriage-seatsmap-seats-seatAvailable {
+  display: flex;
+  min-width: 32px;
+  height: 22px;
+  background-color: #f2f2f2;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border: none;
+  margin-left: 12px;
+  margin-right: 12px;
+  box-sizing: border-box;
+  padding: 0px;
+}
+
+.main-selectSeats-carriage-seatsmap-coupe-seatAvailable {
+  display: flex;
+  width: 35px;
+  height: 48px;
+  background-color: #f2f2f2;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border: none;
+}
+
+.main-selectSeats-carriage-seatsmap-lux-seatAvailable {
+  display: flex;
+  width: 35px;
+  height: 95px;
+  background-color: #f2f2f2;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border: none;
+}
+
+.main-selectSeats-carriage-seatsmap-placcart-seatAvailable {
+  display: flex;
+  width: 54px;
+  height: 35px;
+  background-color: #f2f2f2;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  border: none;
+}
+
+.main-selectSeats-carriage-seatsmap-coupe-updown {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-selectSeats-carriage-seatsmap-coupe-upleft {
+  display: flex;
+  flex-direction: column;
+  border-left: 6px solid #999999;
+}
+
+.main-selectSeats-carriage-seatsmap-coupe-downleft {
+  display: flex;
+  flex-direction: column;
+  border-left: 6px solid #999999;
+  border-bottom: 6px solid #999999;
+}
+
+.main-selectSeats-carriage-seatsmap-coupe-downright {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 6px solid #999999;
+}
+
+
+
+.main-selectSeats-carriage-seatsmap-coupe-updown-right {
+  margin-left: 35px;
+}
+
+.main-selectSeats-carriage-seatsmap-placcart-seat-down {
+  border-right: 6px solid #999999;
+}
+
+.main-selectSeats-carriage-seatsmap-placcart-seat-up {
+  border-left: 6px solid #999999;
+}
+
+.main-selectSeats-carriage-seatsmap-bottoms {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 6px solid #999999;
+}
+
+
+.main-selectSeats-carriage-seatsmap-bottoms-second {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 6px solid #999999;
+  height: 35px;
+}
+
+.main-selectSeats-carriage-seatsmap-bottom-coupe {
+  display: flex;
+  flex-direction: row;
+}
+
+.main-selectSeats-carriage-seatsmap-coupes-seats {
+  height: 165px;
+  border-bottom: 6px solid #999999;
+  border-top: 6px solid #999999;
+  flex-direction: row;
+  display: flex;
+}
+
+.main-selectSeats-carriage-seatsmap-seats {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+}
+
+.main-selectSeats-carriage-seatsmap-seats> :nth-child(1),
+.main-selectSeats-carriage-seatsmap-seats> :nth-child(2),
+.main-selectSeats-carriage-seatsmap-seats> :nth-child(4) {
+  margin-top: 10px;
+}
+
+.main-selectSeats-carriage-seatsmap-seats> :nth-child(3) {
+  margin-top: 25px;
+}
+
+.seatChosen {
+  background-color: #FFA800;
+
+}
+
+.main-selectSeats-carriage-totalPrice {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  height: 70px;
+  gap: 13px;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+
+.main-selectSeats-carriage-totalPrice-image {
+  background-image: url(./img/Rub.svg);
+  border: none;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  width: 14px;
+  height: 17px;
+  display: flex;
+}
+
+
+.main-selectSeats-carriage-totalPrice-value {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.13px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #FFA800;
+
+}
+
+/* след страница -------------------------------------------------------------- */
+
+.main-selectSeats-nextPage-container {
+  display: flex;
+  width: 100%;
+  justify-content: end;
+  margin-top: 101px;
+
+}
+
+.main-selectSeats-nextPage-container-button {
+  height: 60px;
+  width: 222px;
+  border: none;
+  border-radius: 5px;
+  background-color: #FFA800;
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.13px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+}
+
+.main-selectSeats-nextPage-container-buttonincorrect {
+  height: 60px;
+  width: 222px;
+  border: none;
+  border-radius: 5px;
+  background-color: #928F94;
+  color: #FFFFFF;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.13px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+
+}
+
