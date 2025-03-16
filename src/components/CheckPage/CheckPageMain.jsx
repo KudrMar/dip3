@@ -23,12 +23,6 @@ export default function CheckPageMain() {
     let toDateTimeAr = 0;
     let durationAr = 0;
 
-    if (train.arrival) {
-        fromDateTimeAr = train.arrival.from.datetime;
-        toDateTimeAr = train.arrival.to.datetime;
-        durationAr = train.arrival.duration;
-    }
-
     const getHours = (msc) => new Date(msc).getHours();
     const getMinutes = (msc) => (new Date(msc).getMinutes() < 10 ? '0' : '') + new Date(msc).getMinutes();
 
