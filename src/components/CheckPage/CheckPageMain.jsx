@@ -85,24 +85,6 @@ export default function CheckPageMain() {
                             <p className="result-search-tickets-route-time-to-station"></p>
                         </div>
                     </div>
-                    {train.arrival &&
-                        <div className="result-search-tickets-route-time-to">
-                            <div className="result-search-tickets-route-time-to-left">
-                                <div className="result-search-tickets-route-time-to-time">{getHours(fromDateTimeAr)}:{getMinutes(fromDateTimeAr)}</div>
-                                <p className="result-search-tickets-route-time-to-city">{train.arrival.from.city.name}</p>
-                                <p className="result-search-tickets-route-time-to-station"></p>
-                            </div>
-                            <div className="result-search-tickets-route-time-to-mid">
-                                <p className="result-search-tickets-route-time-to-duration">{getHours(durationAr)}:{getMinutes(durationAr)}</p>
-                                <div className="result-search-tickets-arrowLeft" />
-                            </div>
-                            <div className="result-search-tickets-route-time-to-right">
-                                <div className="result-search-tickets-route-time-to-time">{getHours(toDateTimeAr)}:{getMinutes(toDateTimeAr)}</div>
-                                <p className="result-search-tickets-route-time-to-city">{train.arrival.to.city.name}</p>
-                                <p className="result-search-tickets-route-time-to-station"></p>
-                            </div>
-                        </div>
-                    }
                 </div>
                 <div className="result-search-tickets-route-minPrices">
 
