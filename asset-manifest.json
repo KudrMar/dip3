@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/dip3/static/css/main.1d76f907.css",
+    "main.css": "/dip3/static/css/main.933cb045.css",
     "main.js": "/dip3/static/js/main.140b035a.js",
     "static/js/453.337f5635.chunk.js": "/dip3/static/js/453.337f5635.chunk.js",
     "static/media/FirstPage_HowDoesItWork.png": "/dip3/static/media/FirstPage_HowDoesItWork.b0986183eac04af1073e.png",
@@ -83,12 +83,12 @@
     "static/media/sb_lux.svg": "/dip3/static/media/sb_lux.143c66253486836e9792.svg",
     "static/media/ProgressNav.svg": "/dip3/static/media/ProgressNav.30650b20c0fcd358c705.svg",
     "static/media/HowItWorksCircle.svg": "/dip3/static/media/HowItWorksCircle.f76cd559e7670e38bbdb.svg",
-    "main.1d76f907.css.map": "/dip3/static/css/main.1d76f907.css.map",
+    "main.933cb045.css.map": "/dip3/static/css/main.933cb045.css.map",
     "main.140b035a.js.map": "/dip3/static/js/main.140b035a.js.map",
     "453.337f5635.chunk.js.map": "/dip3/static/js/453.337f5635.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d76f907.css",
+    "static/css/main.933cb045.css",
     "static/js/main.140b035a.js"
   ]
 }
