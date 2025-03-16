@@ -48,6 +48,7 @@ export default function SeatsMap({ coachid, seatsList, seatsType }) {
     };
 
     const renderButton = (seatIndex, className) => {
+      if (seatIndex < seatsList.length) {
         const seatData = seatsList[seatIndex];
         return (
             <button
@@ -60,6 +61,16 @@ export default function SeatsMap({ coachid, seatsList, seatsType }) {
                 {seatIndex + 1}
             </button>
         );
+    } else return (
+        <button
+            type="button"
+            key={seatIndex}
+            className={`${className}`}
+            disabled={true}
+        >
+            {seatIndex + 1}
+        </button>
+    );
     };
 
     const { getTotalPrice } = Price()
