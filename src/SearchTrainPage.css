@@ -90,6 +90,7 @@
   background-size: 56px 56px;
   background-image: url(./img/ProgressNav.svg);
   box-sizing: border-box;
+  background-color: initial;
 }
 
 .progressNav-item-text {
