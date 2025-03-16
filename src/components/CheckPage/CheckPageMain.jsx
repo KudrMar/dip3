@@ -19,10 +19,6 @@ export default function CheckPageMain() {
     let toDateTime = train.departure.to.datetime;
     let duration = train.departure.duration;
 
-    let fromDateTimeAr = 0;
-    let toDateTimeAr = 0;
-    let durationAr = 0;
-
     const getHours = (msc) => new Date(msc).getHours();
     const getMinutes = (msc) => (new Date(msc).getMinutes() < 10 ? '0' : '') + new Date(msc).getMinutes();
 
